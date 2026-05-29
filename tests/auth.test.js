@@ -15,7 +15,7 @@ describe("Authentication", () => {
     const response = await request(app)
       .post("/auth/register")
       .send({
-        username: "msalloum",
+        username: "msalloum1",
         password: "password_msalloum"
       });
 
@@ -26,7 +26,7 @@ describe("Authentication", () => {
     const response = await request(app)
       .post("/auth/login")
       .send({
-        username: "msalloum",
+        username: "msalloum1",
         password: "password_msalloum"
       });
 
